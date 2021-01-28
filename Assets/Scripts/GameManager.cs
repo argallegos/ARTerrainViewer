@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Android;
 
+/// <summary>
+/// Currently only used to request camera permissions, if this were a full app would manage more things
+/// </summary>
 public class GameManager : MonoBehaviour
 {
 
@@ -17,8 +20,4 @@ public class GameManager : MonoBehaviour
 
     }
 
-    void Update()
-    {
-        
-    }
 }
